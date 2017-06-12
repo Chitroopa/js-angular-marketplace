@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { AlbumComponent } from './album/album.component';
 import { routing } from './app.routing';
+import { AlbumDetailComponent } from './album-detail/album-detail.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { routing } from './app.routing';
     WelcomeComponent,
     AboutComponent,
     MarketplaceComponent,
-    AlbumComponent
+    AlbumComponent,
+    AlbumDetailComponent
   ],
   imports: [
     BrowserModule,
