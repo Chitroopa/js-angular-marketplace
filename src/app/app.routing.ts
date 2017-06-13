@@ -29,6 +29,11 @@ const appRoutes: Routes = [
   {
     path: 'admin',
     component: AdminComponent
+  },
+  {
+    path: 'admin/marketplace',
+    component: MarketplaceComponent
   }
+
  ];
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
